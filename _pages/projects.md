@@ -8,7 +8,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/projects/background.jpg
-excerpt: "A collection of cool medical devices I have built!" 
+excerpt: "A collection of medical tools I have built!" 
 
 intro: 
   - excerpt: <p style="font-size:14pt"> I'm passionate about building medical devices that can allow physicians to provide better and more <b> personalized care</b> for patients! The following are some of the projects I have worked on at the intersection of <b>bioengineering</b> and <b>medicine</b>! </p>
