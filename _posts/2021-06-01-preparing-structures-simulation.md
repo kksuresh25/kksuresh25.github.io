@@ -8,6 +8,10 @@ tags:
 header: 
   image: https://salilab.org/modeller/gifs/modeller.jpg
   caption: "Photo credit: [**Modeller**](https://salilab.org/modeller/)"
+  
+toc: true
+toc_label: "Contents"
+toc_icon: "cog"
 ---
 
 <style type="text/css">
@@ -25,7 +29,7 @@ Prior to starting this tutorial, make sure you have installed and are familiar w
 
 ## Tutorial 
 
-> **Background**
+> ### Background 
 
 It is paramount that protein structures (.pdb) are prepared properly prior to conducting molecular simulations. If the quality of the sturcture is poor, any analysis from the simulation data will likely be useless. 
 
@@ -33,13 +37,13 @@ The most well-known database for the three-dimensional structural data of protei
 
 This tutorial will walk through how we can use Modeller to **generate a homology model based on multiple templates** and **introduce mutations into the model**. 
 
-> **Introduction**
+> ### Introduction
 
 Imagine that we are oncologists, and we are presented with a neuroblastoma patient who has a novel mutation, R1275Q, in the ALK gene. To investigate whether this mutation is the driver for this patient's neuroblastoma, we would like to conduct a MD simulation. Namely, we want to conduct an MD simulation of the ALK kinase in the inactive conformation, with the R1275Q mutation, and analyze changes in the hydrogen bond network of the protein. 
 
 The first step is acquiring a structure of the inactive conformation of the ALK kinase (with no inhibitors bound). A quick google search shows us that the following is the entry of interest: [3LCS](https://www.rcsb.org/structure/3lcs). 
 
-> **Multiple Template Homology Model** 
+> ### Multiple Template Homology Model
 
 As expected, upon inspection of the PDB file, we find that there the following residues (of interest) are missing: 
 
@@ -156,7 +160,7 @@ a.make()
 
 And there you have it! We were able to successfully use Modeller to fill in the gaps of the 3LCS structure using the 4FNW template. 
 
-> **Mutate Model** 
+> ### Mutate Model
 
 Now that we have an accurate structure for the inactive conformation of ALK, the next step is to introduce the R1275Q mutation. *Please note that Modeller renumbered our PDB from 1 so the location of the mutation in our PDB is 192.* 
 
