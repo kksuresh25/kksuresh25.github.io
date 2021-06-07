@@ -9,7 +9,9 @@ title: "Curriculum Vitae"
     </embed>
 </object> -->
 
-<object data="{{ site.url }}{{ site.baseurl }}/assets/files/resume.pdf" width="1000" height="1000" type="application/pdf"></object>
+<iframe id="cfpdf" src="{{ site.url }}{{ site.baseurl }}/assets/files/resume.pdf" width="1000" height="1000"></iframe>
+
+<!-- <object data="{{ site.url }}{{ site.baseurl }}/assets/files/resume.pdf" width="1000" height="1000" type="application/pdf"></object> -->
 
 
 
