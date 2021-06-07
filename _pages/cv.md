@@ -13,10 +13,11 @@ title: "Curriculum Vitae"
 
 <!-- <iframe id="cfpdf" src="{{ site.url }}{{ site.baseurl }}/assets/files/resume.pdf" width="1000" height="1000"></iframe> -->
 
-<iframe id="cvpdf" src="{{ site.url }}{{ site.baseurl }}/assets/files/resume.pdf" style="height:1000px; width:100%;"></iframe>
+<!-- <iframe id="cvpdf" src="{{ site.url }}{{ site.baseurl }}/assets/files/resume.pdf" style="height:1000px; width:100%;"></iframe>
 <script>
 document.getElementById("theFrame").contentWindow.onload = function() {
     this.document.getElementsByTagName("img")[0].style.width="100%";
 };
-</script>
+</script> -->
 
+<iframe src="https://drive.google.com/file/d/1SO469Fj8AenZPIfyQU7230p6_i9fvLCi/preview" width="100%" height="1000"></iframe>
