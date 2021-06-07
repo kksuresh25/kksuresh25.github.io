@@ -20,4 +20,10 @@ document.getElementById("theFrame").contentWindow.onload = function() {
 };
 </script> -->
 
-<iframe src="https://drive.google.com/file/d/1SO469Fj8AenZPIfyQU7230p6_i9fvLCi/preview" width="100%" height="1000"></iframe>
+<!-- <iframe src="https://drive.google.com/file/d/1SO469Fj8AenZPIfyQU7230p6_i9fvLCi/preview" width="100%" height="1000" type="application/pdf"></iframe> -->
+
+<object data="{{ site.url }}{{ site.baseurl }}/assets/files/resume.pdf" type="application/pdf" width="100%" height="100%">
+  <p>Your web browser doesn't have a PDF plugin.
+  Instead you can <a href="{{ site.url }}{{ site.baseurl }}/assets/files/resume.pdf">click here to
+  download the PDF file.</a></p>
+</object>
