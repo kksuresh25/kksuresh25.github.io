@@ -1,29 +1,53 @@
 ---
-permalink: /cv/
+layout: single
 title: "Curriculum Vitae"
+permalink: /cv/
+toc: true
+toc_label: "Sections"
+toc_icon: "file-alt"
 ---
 
-<!-- <object data="/assets/files/resume.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="/assets/files/resume.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/files/resume.pdf">Download PDF</a>.</p>
-    </embed>
-</object> -->
+## About
+**Krishna Suresh**
+- Email: [your.email@example.com](mailto:your.email@example.com)
+- Phone: +123456789
+- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
+- GitHub: [your-github](https://github.com/your-github)
+- Location: Your City, Country
 
-<!-- <object data="{{ site.url }}{{ site.baseurl }}/assets/files/resume.pdf" width="1000" height="1000" type="application/pdf"></object> -->
+Brief introduction or professional summary here.
 
-<!-- <iframe id="cfpdf" src="{{ site.url }}{{ site.baseurl }}/assets/files/resume.pdf" width="1000" height="1000"></iframe> -->
+## Experience
+### Job Title 1
+**Company Name 1** - *Start Year - End Year*
+- Brief description of your role and responsibilities.
+- Achievement or project you're proud of.
 
-<!-- <iframe id="cvpdf" src="{{ site.url }}{{ site.baseurl }}/assets/files/resume.pdf" style="height:1000px; width:100%;"></iframe>
-<script>
-document.getElementById("theFrame").contentWindow.onload = function() {
-    this.document.getElementsByTagName("img")[0].style.width="100%";
-};
-</script> -->
+### Job Title 2
+**Company Name 2** - *Start Year - End Year*
+- Description of your role and accomplishments.
+- Significant project or contribution.
 
-<!-- <iframe src="https://drive.google.com/file/d/1SO469Fj8AenZPIfyQU7230p6_i9fvLCi/preview" width="100%" height="1000" type="application/pdf"></iframe> -->
+## Education
+### Your Degree
+**Educational Institution** - *Graduation Year*
+- Any special accomplishments or focus areas.
 
-<object data="{{ site.url }}{{ site.baseurl }}/assets/files/resume.pdf" type="application/pdf" width="100%" height="100%">
-  <p>Your web browser doesn't have a PDF plugin.
-  Instead you can <a href="{{ site.url }}{{ site.baseurl }}/assets/files/resume.pdf">click here to
-  download the PDF file.</a></p>
-</object>
+## Skills
+List your professional skills here. For example:
+- Skill 1
+- Skill 2
+- Skill 3
+
+## Projects
+### Project Title
+Brief description of the project. [Link to the project](#) if applicable.
+
+## Interests
+Write about your professional interests or hobbies. For example:
+- Interest 1
+- Interest 2
+- Interest 3
+
+## References
+Available upon request.
