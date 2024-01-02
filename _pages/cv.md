@@ -5,17 +5,27 @@ permalink: /cv/
 toc: true
 toc_label: "Sections"
 toc_icon: "file-alt"
+author_profile: true
 ---
 
-## About
-**Krishna Suresh**
-- Email: [your.email@example.com](mailto:your.email@example.com)
-- Phone: +123456789
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
-- GitHub: [your-github](https://github.com/your-github)
-- Location: Your City, Country
+## About Me
+{: .notice--primary}
+
+![Your Name](/assets/images/bio-photo.jpg){: .align-right}
+
+**Your Name**  
+*Your Professional Role*  
+Location: Your City, Country
 
 Brief introduction or professional summary here.
+
+## Contact Information
+{: .notice--info}
+
+- <i class="fas fa-envelope"></i> [your.email@example.com](mailto:your.email@example.com)
+- <i class="fas fa-phone"></i> +123456789
+- <i class="fab fa-linkedin"></i> [LinkedIn](https://linkedin.com/in/your-linkedin)
+- <i class="fab fa-github"></i> [GitHub](https://github.com/your-github)
 
 ## Experience
 ### Job Title 1
@@ -34,7 +44,7 @@ Brief introduction or professional summary here.
 - Any special accomplishments or focus areas.
 
 ## Skills
-List your professional skills here. For example:
+{: .notice}
 - Skill 1
 - Skill 2
 - Skill 3
@@ -44,7 +54,7 @@ List your professional skills here. For example:
 Brief description of the project. [Link to the project](#) if applicable.
 
 ## Interests
-Write about your professional interests or hobbies. For example:
+{: .notice--warning}
 - Interest 1
 - Interest 2
 - Interest 3
